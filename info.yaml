@@ -1,11 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id: "479305481693325313" # Set this to the ID of your Wokwi project (the number from the project's URL)
   title: "InfiniteShifter" # Project title
   author: "Pau" # Your name
   discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description: "An infinite shifter" # One line description of what your project does
-  language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  language: "Verilog" # HDL source is committed in src
+  top_module: "tt_um_wokwi_479305481693325313"
+  source_files: ["tt_um_wokwi_479305481693325313.v", "cells.v"]
   clock_hz: 10 # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
